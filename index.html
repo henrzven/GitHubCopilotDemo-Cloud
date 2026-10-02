@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub Copilot Dev Days | UCV Caracas</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">GitHub Copilot <span>Dev Days</span></div>
+      <ul class="nav-links">
+        <li><a href="#about">Acerca</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#register">Inscríbete</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <h1>GitHub Copilot Dev Days</h1>
+      <p class="subtitle">Universidad Central de Venezuela &mdash; Caracas</p>
+      <p class="event-date">2 de Octubre de 2026</p>
+
+      <div id="countdown" class="countdown">
+        <div class="time-box"><span id="days">00</span><label>Días</label></div>
+        <div class="time-box"><span id="hours">00</span><label>Horas</label></div>
+        <div class="time-box"><span id="minutes">00</span><label>Min</label></div>
+        <div class="time-box"><span id="seconds">00</span><label>Seg</label></div>
+      </div>
+
+      <a href="#register" class="cta-button">Reserva tu cupo</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <h2>Acerca del Evento</h2>
+      <p>
+        Únete a un día lleno de charlas y talleres prácticos sobre
+        <strong>GitHub Copilot</strong>. Aprenderás a usar la IA para programar
+        más rápido, encontrar y corregir errores, y colaborar mejor en equipo.
+      </p>
+    </section>
+
+    <section id="agenda" class="section alt">
+      <h2>Agenda</h2>
+      <ul class="agenda-list">
+        <li><span class="time">9:00 am</span> Registro y bienvenida</li>
+        <li><span class="time">9:30 am</span> Introducción a GitHub Copilot</li>
+        <li><span class="time">11:00 am</span> Taller: Copilot Chat &amp; Agents</li>
+        <li><span class="time">1:00 pm</span> Almuerzo</li>
+        <li><span class="time">2:00 pm</span> Demo en vivo: depurando bugs con Copilot</li>
+        <li><span class="time">4:00 pm</span> Cierre y networking</li>
+      </ul>
+    </section>
+
+    <section id="register" class="section">
+      <h2>Inscríbete</h2>
+      <form id="register-form" class="register-form">
+        <label for="name">Nombre completo</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required />
+
+        <button type="submit">Reservar cupo</button>
+      </form>
+      <p id="form-message" class="form-message"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 GitHub Copilot Dev Days - UCV Caracas</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
