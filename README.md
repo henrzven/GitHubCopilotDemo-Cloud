@@ -22,6 +22,10 @@ La idea es que los estudiantes usen **GitHub Copilot** (Chat, Agents, Code
 Review) para encontrarlos y corregirlos. Cada bug está documentado como un
 [Issue](../../issues) en este repositorio; ¡resuélvelos con ayuda de Copilot!
 
+- [#2 — El botón "Reserva tu cupo" no tiene estilo](../../issues/2)
+- [#3 — La cuenta regresiva muestra la fecha incorrecta](../../issues/3)
+- [#4 — El formulario acepta correos electrónicos inválidos](../../issues/4)
+
 ### 🤝 Cómo contribuir en la demo
 
 1. Elige un Issue abierto.
